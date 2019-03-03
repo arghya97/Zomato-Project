@@ -1,0 +1,3223 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_d8ff66e42674431295daba0ee86fcd45 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_d8ff66e42674431295daba0ee86fcd45" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_d8ff66e42674431295daba0ee86fcd45 = L.map(
+        'map_d8ff66e42674431295daba0ee86fcd45', {
+        center: [22.525, 88.3588],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_7646f360a0474975853d8b01e5c921ee = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_d8ff66e42674431295daba0ee86fcd45);
+    
+            var feature_group_ff13bd4a20a2489b85810d2282b97a5c = L.featureGroup(
+                ).addTo(map_d8ff66e42674431295daba0ee86fcd45);
+        
+    
+        var marker_26664e76f0d140438f48900050b8990c = L.marker(
+            [22.5146, 88.3533],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_30d973fd1bfe49caa2802dcfb25f8454 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_26664e76f0d140438f48900050b8990c.setIcon(icon_30d973fd1bfe49caa2802dcfb25f8454);
+            
+    
+            var popup_593a496ddb204c059950b3f105fe8022 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0570395d335744b6b2f8c11533761295 = $(`<div id="html_0570395d335744b6b2f8c11533761295" style="width: 100.0%; height: 100.0%;">xrong-place-southern-avenue</div>`)[0];
+                popup_593a496ddb204c059950b3f105fe8022.setContent(html_0570395d335744b6b2f8c11533761295);
+            
+
+            marker_26664e76f0d140438f48900050b8990c.bindPopup(popup_593a496ddb204c059950b3f105fe8022)
+            ;
+
+            
+        
+    
+        var marker_c1279044c3064eff94a7422f8864f686 = L.marker(
+            [22.5389, 88.3472],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_0a03e40f66e94676be2b401544ff8275 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c1279044c3064eff94a7422f8864f686.setIcon(icon_0a03e40f66e94676be2b401544ff8275);
+            
+    
+            var popup_7e02a17559ed44c3b7fea5e17e210a58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c3f63497d6ba4c42a8aaa5440e548d6f = $(`<div id="html_c3f63497d6ba4c42a8aaa5440e548d6f" style="width: 100.0%; height: 100.0%;">tibetan-delight-elgin</div>`)[0];
+                popup_7e02a17559ed44c3b7fea5e17e210a58.setContent(html_c3f63497d6ba4c42a8aaa5440e548d6f);
+            
+
+            marker_c1279044c3064eff94a7422f8864f686.bindPopup(popup_7e02a17559ed44c3b7fea5e17e210a58)
+            ;
+
+            
+        
+    
+        var marker_717b09af08a84cf686b16dde6f18c127 = L.marker(
+            [22.5294, 88.3687],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_ce3d82c4578c46db8afeb6473e09e702 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_717b09af08a84cf686b16dde6f18c127.setIcon(icon_ce3d82c4578c46db8afeb6473e09e702);
+            
+    
+            var popup_f4179c64953c45be815c1fa3a8cba5e4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1b2d6ed7fb6e4268b5395be48a8dba34 = $(`<div id="html_1b2d6ed7fb6e4268b5395be48a8dba34" style="width: 100.0%; height: 100.0%;">bohemian-ballygunge</div>`)[0];
+                popup_f4179c64953c45be815c1fa3a8cba5e4.setContent(html_1b2d6ed7fb6e4268b5395be48a8dba34);
+            
+
+            marker_717b09af08a84cf686b16dde6f18c127.bindPopup(popup_f4179c64953c45be815c1fa3a8cba5e4)
+            ;
+
+            
+        
+    
+        var marker_ae8255d61e214621957392e2840b95c2 = L.marker(
+            [22.5585, 88.3507],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_850fd2eb7c8e43dea112bd94301702aa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ae8255d61e214621957392e2840b95c2.setIcon(icon_850fd2eb7c8e43dea112bd94301702aa);
+            
+    
+            var popup_88b26d2f1cc747ab90fc6ef91cb8e3b8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c85e8b40b6d646719d7de15c9c1c4d8b = $(`<div id="html_c85e8b40b6d646719d7de15c9c1c4d8b" style="width: 100.0%; height: 100.0%;">soi-new-market-area</div>`)[0];
+                popup_88b26d2f1cc747ab90fc6ef91cb8e3b8.setContent(html_c85e8b40b6d646719d7de15c9c1c4d8b);
+            
+
+            marker_ae8255d61e214621957392e2840b95c2.bindPopup(popup_88b26d2f1cc747ab90fc6ef91cb8e3b8)
+            ;
+
+            
+        
+    
+        var marker_4ea223b56492421283156d51105d5f1a = L.marker(
+            [22.5514, 88.3525],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_d7d43805481442358895e0d132583ca7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ea223b56492421283156d51105d5f1a.setIcon(icon_d7d43805481442358895e0d132583ca7);
+            
+    
+            var popup_e6a0e424de494dd8b8c27331d88eab24 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d10acbf6e1a4bfe95e194e7a8a4fe56 = $(`<div id="html_1d10acbf6e1a4bfe95e194e7a8a4fe56" style="width: 100.0%; height: 100.0%;">pings-cafe-orient-park-street-area</div>`)[0];
+                popup_e6a0e424de494dd8b8c27331d88eab24.setContent(html_1d10acbf6e1a4bfe95e194e7a8a4fe56);
+            
+
+            marker_4ea223b56492421283156d51105d5f1a.bindPopup(popup_e6a0e424de494dd8b8c27331d88eab24)
+            ;
+
+            
+        
+    
+        var marker_70317d2f2701479d864c01348fd90014 = L.marker(
+            [22.5161, 88.3483],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_90096b98f8894e2893c4d8471762ed40 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_70317d2f2701479d864c01348fd90014.setIcon(icon_90096b98f8894e2893c4d8471762ed40);
+            
+    
+            var popup_36911c5f747343a39a4200a41157d0ef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9d9dc113dd604fc3bc2b650384d3f03e = $(`<div id="html_9d9dc113dd604fc3bc2b650384d3f03e" style="width: 100.0%; height: 100.0%;">radhu-babus-lake-market-area</div>`)[0];
+                popup_36911c5f747343a39a4200a41157d0ef.setContent(html_9d9dc113dd604fc3bc2b650384d3f03e);
+            
+
+            marker_70317d2f2701479d864c01348fd90014.bindPopup(popup_36911c5f747343a39a4200a41157d0ef)
+            ;
+
+            
+        
+    
+        var marker_f81906dc8be341e3a3fc5053a43c736f = L.marker(
+            [22.5177, 88.3629],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_210a5055d8374ba4bee8f2a8b39abec6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f81906dc8be341e3a3fc5053a43c736f.setIcon(icon_210a5055d8374ba4bee8f2a8b39abec6);
+            
+    
+            var popup_0885310acbf2487dacf52359f99ebaff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0ee8ec7b7d1d462d8c018f1d76c0dd88 = $(`<div id="html_0ee8ec7b7d1d462d8c018f1d76c0dd88" style="width: 100.0%; height: 100.0%;">sienna-store-cafe-hindustan-park</div>`)[0];
+                popup_0885310acbf2487dacf52359f99ebaff.setContent(html_0ee8ec7b7d1d462d8c018f1d76c0dd88);
+            
+
+            marker_f81906dc8be341e3a3fc5053a43c736f.bindPopup(popup_0885310acbf2487dacf52359f99ebaff)
+            ;
+
+            
+        
+    
+        var marker_eb2ba940c46d4ea6ad1c76c1461b3bfd = L.marker(
+            [22.4915, 88.3721],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_ed0a12546b1d4e3a8bb4c7517c5785f9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb2ba940c46d4ea6ad1c76c1461b3bfd.setIcon(icon_ed0a12546b1d4e3a8bb4c7517c5785f9);
+            
+    
+            var popup_a2441754090e4ebb8c8e37345b16b3f0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b7c6481e19a44413a4e6bf6762482388 = $(`<div id="html_b7c6481e19a44413a4e6bf6762482388" style="width: 100.0%; height: 100.0%;">calcutta-bistro-jadavpur</div>`)[0];
+                popup_a2441754090e4ebb8c8e37345b16b3f0.setContent(html_b7c6481e19a44413a4e6bf6762482388);
+            
+
+            marker_eb2ba940c46d4ea6ad1c76c1461b3bfd.bindPopup(popup_a2441754090e4ebb8c8e37345b16b3f0)
+            ;
+
+            
+        
+    
+        var marker_3ee51659301246778bee967272ea21f9 = L.marker(
+            [22.5204, 88.3462],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_bb035fd4685b4703a871e05d37449d61 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3ee51659301246778bee967272ea21f9.setIcon(icon_bb035fd4685b4703a871e05d37449d61);
+            
+    
+            var popup_3ad2b2b7eaec464aa070648a57f03beb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2c08f750013e40288ab7bc7f2f1a759e = $(`<div id="html_2c08f750013e40288ab7bc7f2f1a759e" style="width: 100.0%; height: 100.0%;">singh-n-ching-kalighat</div>`)[0];
+                popup_3ad2b2b7eaec464aa070648a57f03beb.setContent(html_2c08f750013e40288ab7bc7f2f1a759e);
+            
+
+            marker_3ee51659301246778bee967272ea21f9.bindPopup(popup_3ad2b2b7eaec464aa070648a57f03beb)
+            ;
+
+            
+        
+    
+        var marker_6ba9b75b615040329115e0dff3096fc4 = L.marker(
+            [22.4941, 88.3696],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_d21af048b3d9412787d098f4f42b5aa5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ba9b75b615040329115e0dff3096fc4.setIcon(icon_d21af048b3d9412787d098f4f42b5aa5);
+            
+    
+            var popup_a8f1d0b3e289429a89db2248fbef12f4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dd5bd07312644902905b6d6114a0c497 = $(`<div id="html_dd5bd07312644902905b6d6114a0c497" style="width: 100.0%; height: 100.0%;">cafe-plot-15-1-jadavpur</div>`)[0];
+                popup_a8f1d0b3e289429a89db2248fbef12f4.setContent(html_dd5bd07312644902905b6d6114a0c497);
+            
+
+            marker_6ba9b75b615040329115e0dff3096fc4.bindPopup(popup_a8f1d0b3e289429a89db2248fbef12f4)
+            ;
+
+            
+        
+    
+        var marker_2349bcfec4734f42a840e7862c9a5092 = L.marker(
+            [22.5184, 88.3589],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_dbbcd874a8c24fc192e7cac9b0d94d77 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2349bcfec4734f42a840e7862c9a5092.setIcon(icon_dbbcd874a8c24fc192e7cac9b0d94d77);
+            
+    
+            var popup_4a9412a42dcb4a99807d1014659e98f7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_efe04a3c16a54ba485cf007203518f13 = $(`<div id="html_efe04a3c16a54ba485cf007203518f13" style="width: 100.0%; height: 100.0%;">mud-hindustan-park</div>`)[0];
+                popup_4a9412a42dcb4a99807d1014659e98f7.setContent(html_efe04a3c16a54ba485cf007203518f13);
+            
+
+            marker_2349bcfec4734f42a840e7862c9a5092.bindPopup(popup_4a9412a42dcb4a99807d1014659e98f7)
+            ;
+
+            
+        
+    
+        var marker_a351ef132c5342bbbc28387ef85163c4 = L.marker(
+            [22.5281, 88.3705],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_352b750d91854e21af7a54ad6a3af5ca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a351ef132c5342bbbc28387ef85163c4.setIcon(icon_352b750d91854e21af7a54ad6a3af5ca);
+            
+    
+            var popup_76c3f35ebdc24d9c987a3fc1d3bf5f9c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8b8215187ab74a6aaa4f8a2689156bea = $(`<div id="html_8b8215187ab74a6aaa4f8a2689156bea" style="width: 100.0%; height: 100.0%;">mad-hatters-ballygunge</div>`)[0];
+                popup_76c3f35ebdc24d9c987a3fc1d3bf5f9c.setContent(html_8b8215187ab74a6aaa4f8a2689156bea);
+            
+
+            marker_a351ef132c5342bbbc28387ef85163c4.bindPopup(popup_76c3f35ebdc24d9c987a3fc1d3bf5f9c)
+            ;
+
+            
+        
+    
+        var marker_86273445cc8f4d74b03f478b8cfc96d6 = L.marker(
+            [22.5164, 88.3603],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_116279366f504b06b23e894f26350ad1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_86273445cc8f4d74b03f478b8cfc96d6.setIcon(icon_116279366f504b06b23e894f26350ad1);
+            
+    
+            var popup_f3366e2d486649b0a806865621b6b89a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6db4813424cc4b85b79ff19a8786c951 = $(`<div id="html_6db4813424cc4b85b79ff19a8786c951" style="width: 100.0%; height: 100.0%;">banana-leaf-southern-avenue</div>`)[0];
+                popup_f3366e2d486649b0a806865621b6b89a.setContent(html_6db4813424cc4b85b79ff19a8786c951);
+            
+
+            marker_86273445cc8f4d74b03f478b8cfc96d6.bindPopup(popup_f3366e2d486649b0a806865621b6b89a)
+            ;
+
+            
+        
+    
+        var marker_22459369506e48638e96e03991fd7954 = L.marker(
+            [22.5879, 88.4088],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_5c11e285156c4d558ae7de362b51063f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22459369506e48638e96e03991fd7954.setIcon(icon_5c11e285156c4d558ae7de362b51063f);
+            
+    
+            var popup_d5a01de0fa32430394a5ac9f27b53b72 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f73cc9a229524df2b5a70573b36cb8ca = $(`<div id="html_f73cc9a229524df2b5a70573b36cb8ca" style="width: 100.0%; height: 100.0%;">orkoss-restaurant-sector-1-salt-lake</div>`)[0];
+                popup_d5a01de0fa32430394a5ac9f27b53b72.setContent(html_f73cc9a229524df2b5a70573b36cb8ca);
+            
+
+            marker_22459369506e48638e96e03991fd7954.bindPopup(popup_d5a01de0fa32430394a5ac9f27b53b72)
+            ;
+
+            
+        
+    
+        var marker_da03d550e8f7468eb2f64e33eecb47c2 = L.marker(
+            [22.5247, 88.3556],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_f150fc740b9b48e19fde5d398c4ef373 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_da03d550e8f7468eb2f64e33eecb47c2.setIcon(icon_f150fc740b9b48e19fde5d398c4ef373);
+            
+    
+            var popup_64096b5324fd4ef9906718352aed97e0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_16e44f480c564a30a60f44ab9d4f5979 = $(`<div id="html_16e44f480c564a30a60f44ab9d4f5979" style="width: 100.0%; height: 100.0%;">CafePranah</div>`)[0];
+                popup_64096b5324fd4ef9906718352aed97e0.setContent(html_16e44f480c564a30a60f44ab9d4f5979);
+            
+
+            marker_da03d550e8f7468eb2f64e33eecb47c2.bindPopup(popup_64096b5324fd4ef9906718352aed97e0)
+            ;
+
+            
+        
+    
+        var marker_668c66dd070c4be4957b440fdb32570e = L.marker(
+            [22.5534, 88.3522],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_27032aad91c741feb9c978392d6a861a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_668c66dd070c4be4957b440fdb32570e.setIcon(icon_27032aad91c741feb9c978392d6a861a);
+            
+    
+            var popup_2e7f9bdc13e34c18bba4ceaa802be6b7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b631749b18c04226901e9204a12df235 = $(`<div id="html_b631749b18c04226901e9204a12df235" style="width: 100.0%; height: 100.0%;">olypub-park-street-area</div>`)[0];
+                popup_2e7f9bdc13e34c18bba4ceaa802be6b7.setContent(html_b631749b18c04226901e9204a12df235);
+            
+
+            marker_668c66dd070c4be4957b440fdb32570e.bindPopup(popup_2e7f9bdc13e34c18bba4ceaa802be6b7)
+            ;
+
+            
+        
+    
+        var marker_1901397741874d8e8f30b5035cbd21e2 = L.marker(
+            [22.5441, 88.3523],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_c15d2087067b44e28743ea8dcc94f671 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1901397741874d8e8f30b5035cbd21e2.setIcon(icon_c15d2087067b44e28743ea8dcc94f671);
+            
+    
+            var popup_9579aeac364d40378df9de668b24a5e2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_13943b47b4b5444c98a1bd8bf596ef8f = $(`<div id="html_13943b47b4b5444c98a1bd8bf596ef8f" style="width: 100.0%; height: 100.0%;">monkey-bar-camac-street-area</div>`)[0];
+                popup_9579aeac364d40378df9de668b24a5e2.setContent(html_13943b47b4b5444c98a1bd8bf596ef8f);
+            
+
+            marker_1901397741874d8e8f30b5035cbd21e2.bindPopup(popup_9579aeac364d40378df9de668b24a5e2)
+            ;
+
+            
+        
+    
+        var marker_e9676b25b4bb4ddf97a2d7dc0cb38e45 = L.marker(
+            [22.5515, 88.3539],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_ccd0635e8e104792b77f41ab9b736c3e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e9676b25b4bb4ddf97a2d7dc0cb38e45.setIcon(icon_ccd0635e8e104792b77f41ab9b736c3e);
+            
+    
+            var popup_b95ad42932114503aa2c65cbb21ba61f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_254106d7aa4d4cbca377c5424fde2c36 = $(`<div id="html_254106d7aa4d4cbca377c5424fde2c36" style="width: 100.0%; height: 100.0%;">mamagoto-park-street-area</div>`)[0];
+                popup_b95ad42932114503aa2c65cbb21ba61f.setContent(html_254106d7aa4d4cbca377c5424fde2c36);
+            
+
+            marker_e9676b25b4bb4ddf97a2d7dc0cb38e45.bindPopup(popup_b95ad42932114503aa2c65cbb21ba61f)
+            ;
+
+            
+        
+    
+        var marker_ed63d39481014dc49726076867f31a20 = L.marker(
+            [22.5123, 88.3287],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_8e75ee16e885491fb35be941df6ffd41 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed63d39481014dc49726076867f31a20.setIcon(icon_8e75ee16e885491fb35be941df6ffd41);
+            
+    
+            var popup_434ce1b83e3a4cf7adc0ce1dac52f124 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b54690e33138485abb45d74a70bf5b66 = $(`<div id="html_b54690e33138485abb45d74a70bf5b66" style="width: 100.0%; height: 100.0%;">steam-fried-1-new-alipore</div>`)[0];
+                popup_434ce1b83e3a4cf7adc0ce1dac52f124.setContent(html_b54690e33138485abb45d74a70bf5b66);
+            
+
+            marker_ed63d39481014dc49726076867f31a20.bindPopup(popup_434ce1b83e3a4cf7adc0ce1dac52f124)
+            ;
+
+            
+        
+    
+        var marker_4f29abe98155429f95867e4ee81bc6a6 = L.marker(
+            [22.4971, 88.3593],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_9fa3a86e2ae14ca9815561313a383a16 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4f29abe98155429f95867e4ee81bc6a6.setIcon(icon_9fa3a86e2ae14ca9815561313a383a16);
+            
+    
+            var popup_45f59e5a5d0740fd919ab78267563196 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_59ce2ac525a54aaab2aad887d85a90e7 = $(`<div id="html_59ce2ac525a54aaab2aad887d85a90e7" style="width: 100.0%; height: 100.0%;">denzong-kitchen-jadavpur</div>`)[0];
+                popup_45f59e5a5d0740fd919ab78267563196.setContent(html_59ce2ac525a54aaab2aad887d85a90e7);
+            
+
+            marker_4f29abe98155429f95867e4ee81bc6a6.bindPopup(popup_45f59e5a5d0740fd919ab78267563196)
+            ;
+
+            
+        
+    
+        var marker_961c4a9d4f9a496b90d2a6022c6b6996 = L.marker(
+            [22.539, 88.3654],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_b5cbfaefe3ca4df2b3ab49c2abb64881 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_961c4a9d4f9a496b90d2a6022c6b6996.setIcon(icon_b5cbfaefe3ca4df2b3ab49c2abb64881);
+            
+    
+            var popup_ed191176280243a9a06904fe16954c1c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_63d1b725c8584ec0b41ba07d30775abb = $(`<div id="html_63d1b725c8584ec0b41ba07d30775abb" style="width: 100.0%; height: 100.0%;">nawwarah-fine-dine-lounge-ballygunge</div>`)[0];
+                popup_ed191176280243a9a06904fe16954c1c.setContent(html_63d1b725c8584ec0b41ba07d30775abb);
+            
+
+            marker_961c4a9d4f9a496b90d2a6022c6b6996.bindPopup(popup_ed191176280243a9a06904fe16954c1c)
+            ;
+
+            
+        
+    
+        var marker_d6c35f9823ad4caba4314bd777ded111 = L.marker(
+            [22.5108, 88.3483],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_9e5c8f3281734bb7ac3e961e4e06b56e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6c35f9823ad4caba4314bd777ded111.setIcon(icon_9e5c8f3281734bb7ac3e961e4e06b56e);
+            
+    
+            var popup_6614bbb96f0441fbba63591bf6a7e228 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e004b5cb0cf046e0af03db99d3d998f7 = $(`<div id="html_e004b5cb0cf046e0af03db99d3d998f7" style="width: 100.0%; height: 100.0%;">the-steak-factory-southern-avenue</div>`)[0];
+                popup_6614bbb96f0441fbba63591bf6a7e228.setContent(html_e004b5cb0cf046e0af03db99d3d998f7);
+            
+
+            marker_d6c35f9823ad4caba4314bd777ded111.bindPopup(popup_6614bbb96f0441fbba63591bf6a7e228)
+            ;
+
+            
+        
+    
+        var marker_f7d60219c52347699fe10cfa918f6996 = L.marker(
+            [22.5126, 88.3513],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_8285f992c2a34dab84f698e06092be11 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f7d60219c52347699fe10cfa918f6996.setIcon(icon_8285f992c2a34dab84f698e06092be11);
+            
+    
+            var popup_d0a9eeace9e04908ab8827ed2043a3df = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_75dc9a3b68ea4c82b327fd4904db29c9 = $(`<div id="html_75dc9a3b68ea4c82b327fd4904db29c9" style="width: 100.0%; height: 100.0%;">macazzo-southern-avenue</div>`)[0];
+                popup_d0a9eeace9e04908ab8827ed2043a3df.setContent(html_75dc9a3b68ea4c82b327fd4904db29c9);
+            
+
+            marker_f7d60219c52347699fe10cfa918f6996.bindPopup(popup_d0a9eeace9e04908ab8827ed2043a3df)
+            ;
+
+            
+        
+    
+        var marker_22eaa53f32f64753adf510d1cb3bed70 = L.marker(
+            [22.517, 88.3452],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_0da5acb0c3134ddf9559f67ec1d86cc7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22eaa53f32f64753adf510d1cb3bed70.setIcon(icon_0da5acb0c3134ddf9559f67ec1d86cc7);
+            
+    
+            var popup_70a1e408dd134dd6ad106dce3aeee6af = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7440a816c6ad48929ccca8f4a92fc9b2 = $(`<div id="html_7440a816c6ad48929ccca8f4a92fc9b2" style="width: 100.0%; height: 100.0%;">bachans-dhaba-kalighat</div>`)[0];
+                popup_70a1e408dd134dd6ad106dce3aeee6af.setContent(html_7440a816c6ad48929ccca8f4a92fc9b2);
+            
+
+            marker_22eaa53f32f64753adf510d1cb3bed70.bindPopup(popup_70a1e408dd134dd6ad106dce3aeee6af)
+            ;
+
+            
+        
+    
+        var marker_06b26d1b824943a68b3728c8f3044c2d = L.marker(
+            [22.5152, 88.3934],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_2ea66644d8fc4f3d8a20b38540f3a5cd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_06b26d1b824943a68b3728c8f3044c2d.setIcon(icon_2ea66644d8fc4f3d8a20b38540f3a5cd);
+            
+    
+            var popup_cfcdbdb3db04468a8037840497b6a0c0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0c77b9d0c5d74ce3a55ea0d242cd0aa3 = $(`<div id="html_0c77b9d0c5d74ce3a55ea0d242cd0aa3" style="width: 100.0%; height: 100.0%;">cinnabon-kasba</div>`)[0];
+                popup_cfcdbdb3db04468a8037840497b6a0c0.setContent(html_0c77b9d0c5d74ce3a55ea0d242cd0aa3);
+            
+
+            marker_06b26d1b824943a68b3728c8f3044c2d.bindPopup(popup_cfcdbdb3db04468a8037840497b6a0c0)
+            ;
+
+            
+        
+    
+        var marker_66d63be052d64a2597780e76b5a7c3a5 = L.marker(
+            [22.4928, 88.3455],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_d871760e35254ff4b69a57694b1eed15 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_66d63be052d64a2597780e76b5a7c3a5.setIcon(icon_d871760e35254ff4b69a57694b1eed15);
+            
+    
+            var popup_3c8c40ae18aa442a8c44b647c8470bfb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5d04cd4ac1174bbfb30370673e7fa34e = $(`<div id="html_5d04cd4ac1174bbfb30370673e7fa34e" style="width: 100.0%; height: 100.0%;">china-town-tollygunge</div>`)[0];
+                popup_3c8c40ae18aa442a8c44b647c8470bfb.setContent(html_5d04cd4ac1174bbfb30370673e7fa34e);
+            
+
+            marker_66d63be052d64a2597780e76b5a7c3a5.bindPopup(popup_3c8c40ae18aa442a8c44b647c8470bfb)
+            ;
+
+            
+        
+    
+        var marker_446d4c5939a94ef4a09ee1e491b30544 = L.marker(
+            [22.5346, 88.3535],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_e549cdfa34e84807985ea0867ee6719c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_446d4c5939a94ef4a09ee1e491b30544.setIcon(icon_e549cdfa34e84807985ea0867ee6719c);
+            
+    
+            var popup_db78189cc6e745ea90a6d53176f1822a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3d8e7dbb793a4df8872335f24f634bcb = $(`<div id="html_3d8e7dbb793a4df8872335f24f634bcb" style="width: 100.0%; height: 100.0%;">the-dugout-bhawanipur</div>`)[0];
+                popup_db78189cc6e745ea90a6d53176f1822a.setContent(html_3d8e7dbb793a4df8872335f24f634bcb);
+            
+
+            marker_446d4c5939a94ef4a09ee1e491b30544.bindPopup(popup_db78189cc6e745ea90a6d53176f1822a)
+            ;
+
+            
+        
+    
+        var marker_fe0e26d6ec224fe6bc1ffead1c576e9b = L.marker(
+            [22.5042, 88.3647],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_44f94ae28f9546fab4939a380b0c4d13 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fe0e26d6ec224fe6bc1ffead1c576e9b.setIcon(icon_44f94ae28f9546fab4939a380b0c4d13);
+            
+    
+            var popup_ce352ec8f90245ab8e3cedf0cb291c3f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_24950a3ab9174032889282e42ce65f63 = $(`<div id="html_24950a3ab9174032889282e42ce65f63" style="width: 100.0%; height: 100.0%;">the-taste-maker-jodhpur-park</div>`)[0];
+                popup_ce352ec8f90245ab8e3cedf0cb291c3f.setContent(html_24950a3ab9174032889282e42ce65f63);
+            
+
+            marker_fe0e26d6ec224fe6bc1ffead1c576e9b.bindPopup(popup_ce352ec8f90245ab8e3cedf0cb291c3f)
+            ;
+
+            
+        
+    
+        var marker_5ea0aa6732ff4e748f1b1c1520c276f2 = L.marker(
+            [22.5428, 88.3907],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_fc7c60b0fcb24a87a5bcfd52b0b5ef88 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ea0aa6732ff4e748f1b1c1520c276f2.setIcon(icon_fc7c60b0fcb24a87a5bcfd52b0b5ef88);
+            
+    
+            var popup_1a800deaec154c888239b92559392b45 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_30444ae365ac4fb7abd019cced6b9cde = $(`<div id="html_30444ae365ac4fb7abd019cced6b9cde" style="width: 100.0%; height: 100.0%;">golden-phoenix-chinese-tangra</div>`)[0];
+                popup_1a800deaec154c888239b92559392b45.setContent(html_30444ae365ac4fb7abd019cced6b9cde);
+            
+
+            marker_5ea0aa6732ff4e748f1b1c1520c276f2.bindPopup(popup_1a800deaec154c888239b92559392b45)
+            ;
+
+            
+        
+    
+        var marker_d9a7898b36cf4a6ba389c039ae1087ad = L.marker(
+            [22.5536, 88.3518],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_21e722597bb847eaa47c50476e0b97bb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d9a7898b36cf4a6ba389c039ae1087ad.setIcon(icon_21e722597bb847eaa47c50476e0b97bb);
+            
+    
+            var popup_75fac3c0722144fba43aeae2e7e34286 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49c6ab2f07d84cab846630a8f2cae0e6 = $(`<div id="html_49c6ab2f07d84cab846630a8f2cae0e6" style="width: 100.0%; height: 100.0%;">hakuna-matata-park-street-area</div>`)[0];
+                popup_75fac3c0722144fba43aeae2e7e34286.setContent(html_49c6ab2f07d84cab846630a8f2cae0e6);
+            
+
+            marker_d9a7898b36cf4a6ba389c039ae1087ad.bindPopup(popup_75fac3c0722144fba43aeae2e7e34286)
+            ;
+
+            
+        
+    
+        var marker_4a81256901f0462e8c30957d45f3246b = L.marker(
+            [22.5142, 88.3964],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_528b88889f1547daadb24289be4ac58f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a81256901f0462e8c30957d45f3246b.setIcon(icon_528b88889f1547daadb24289be4ac58f);
+            
+    
+            var popup_859b766d0a85474dad21da1cb9caf42e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af42fb49053241d4908b05a94febbc80 = $(`<div id="html_af42fb49053241d4908b05a94febbc80" style="width: 100.0%; height: 100.0%;">royal-jade-chinese-restaurant-kasba</div>`)[0];
+                popup_859b766d0a85474dad21da1cb9caf42e.setContent(html_af42fb49053241d4908b05a94febbc80);
+            
+
+            marker_4a81256901f0462e8c30957d45f3246b.bindPopup(popup_859b766d0a85474dad21da1cb9caf42e)
+            ;
+
+            
+        
+    
+        var marker_44d9fac2f2f141f8be8ada00d7e4fa1a = L.marker(
+            [22.5017, 88.3577],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_7add926c33c247a38ba7f310c53bc5d5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_44d9fac2f2f141f8be8ada00d7e4fa1a.setIcon(icon_7add926c33c247a38ba7f310c53bc5d5);
+            
+    
+            var popup_17d7774543f74dfa91092433b6f23cd2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_792a0858200240fda992288cfc7dac01 = $(`<div id="html_792a0858200240fda992288cfc7dac01" style="width: 100.0%; height: 100.0%;">shawarma-nation-prince-anwar-shah-road</div>`)[0];
+                popup_17d7774543f74dfa91092433b6f23cd2.setContent(html_792a0858200240fda992288cfc7dac01);
+            
+
+            marker_44d9fac2f2f141f8be8ada00d7e4fa1a.bindPopup(popup_17d7774543f74dfa91092433b6f23cd2)
+            ;
+
+            
+        
+    
+        var marker_c857f27f77f14dcfbe0547d826388ccc = L.marker(
+            [22.4803, 88.3567],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_3b0e4e9346cc46b9943fb36d83c24bc2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c857f27f77f14dcfbe0547d826388ccc.setIcon(icon_3b0e4e9346cc46b9943fb36d83c24bc2);
+            
+    
+            var popup_1c7e93c5e90946268b36894792ce1e65 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2f5385aa5f0643ca8e1f23f88ebc9724 = $(`<div id="html_2f5385aa5f0643ca8e1f23f88ebc9724" style="width: 100.0%; height: 100.0%;">k2-the-restaurant-tollygunge</div>`)[0];
+                popup_1c7e93c5e90946268b36894792ce1e65.setContent(html_2f5385aa5f0643ca8e1f23f88ebc9724);
+            
+
+            marker_c857f27f77f14dcfbe0547d826388ccc.bindPopup(popup_1c7e93c5e90946268b36894792ce1e65)
+            ;
+
+            
+        
+    
+        var marker_ff74024bbee3466281728b565610af55 = L.marker(
+            [22.5449, 88.3992],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_55abe4501e4847608e67a3ccd1a9e6ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ff74024bbee3466281728b565610af55.setIcon(icon_55abe4501e4847608e67a3ccd1a9e6ec);
+            
+    
+            var popup_ae7c8488bd9d495080b5323cc7e22261 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6302c3dcd59c40e4ab912ea6803a3f3c = $(`<div id="html_6302c3dcd59c40e4ab912ea6803a3f3c" style="width: 100.0%; height: 100.0%;">fabelle-chocolate-boutique-itc-sonar-science-city-area</div>`)[0];
+                popup_ae7c8488bd9d495080b5323cc7e22261.setContent(html_6302c3dcd59c40e4ab912ea6803a3f3c);
+            
+
+            marker_ff74024bbee3466281728b565610af55.bindPopup(popup_ae7c8488bd9d495080b5323cc7e22261)
+            ;
+
+            
+        
+    
+        var marker_4a6ecb669e854dc9a19a42e1add18312 = L.marker(
+            [22.4709, 88.3688],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_f27fc2935daa43689e4146e5f06cf79f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a6ecb669e854dc9a19a42e1add18312.setIcon(icon_f27fc2935daa43689e4146e5f06cf79f);
+            
+    
+            var popup_d94bf703c9fc4ebba4ef60b50af0e45b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_96e54c29868c4ed88a0ee597ae15a984 = $(`<div id="html_96e54c29868c4ed88a0ee597ae15a984" style="width: 100.0%; height: 100.0%;">the-noodle-hub-naktala</div>`)[0];
+                popup_d94bf703c9fc4ebba4ef60b50af0e45b.setContent(html_96e54c29868c4ed88a0ee597ae15a984);
+            
+
+            marker_4a6ecb669e854dc9a19a42e1add18312.bindPopup(popup_d94bf703c9fc4ebba4ef60b50af0e45b)
+            ;
+
+            
+        
+    
+        var marker_ccc30f1c4d404be98c506beca93e7e5e = L.marker(
+            [22.5956, 88.3649],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_ba968914fe404520b8f99dae5f18b58b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ccc30f1c4d404be98c506beca93e7e5e.setIcon(icon_ba968914fe404520b8f99dae5f18b58b);
+            
+    
+            var popup_91f0ca18622b42579f797e74e9008c27 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_03a03058d7764add86840dc27a70f656 = $(`<div id="html_03a03058d7764add86840dc27a70f656" style="width: 100.0%; height: 100.0%;">mitra-cafe-shobha-bazar</div>`)[0];
+                popup_91f0ca18622b42579f797e74e9008c27.setContent(html_03a03058d7764add86840dc27a70f656);
+            
+
+            marker_ccc30f1c4d404be98c506beca93e7e5e.bindPopup(popup_91f0ca18622b42579f797e74e9008c27)
+            ;
+
+            
+        
+    
+        var marker_26b35563844345c7ac2d344ec0da41b4 = L.marker(
+            [22.4878, 88.3906],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_ca666579fc7c43a2940bd66845eb2e8a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_26b35563844345c7ac2d344ec0da41b4.setIcon(icon_ca666579fc7c43a2940bd66845eb2e8a);
+            
+    
+            var popup_befb35695ed04bf9b10a1e3e283b646d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea2e1d44bf3c46ceba904d03bf407561 = $(`<div id="html_ea2e1d44bf3c46ceba904d03bf407561" style="width: 100.0%; height: 100.0%;">blu-orchid-santoshpur</div>`)[0];
+                popup_befb35695ed04bf9b10a1e3e283b646d.setContent(html_ea2e1d44bf3c46ceba904d03bf407561);
+            
+
+            marker_26b35563844345c7ac2d344ec0da41b4.bindPopup(popup_befb35695ed04bf9b10a1e3e283b646d)
+            ;
+
+            
+        
+    
+        var marker_7b602e9ade7944e3a6da44a0ec86bd4a = L.marker(
+            [22.4916, 88.3473],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_e074eedcfd384b2092d0db15e2290219 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7b602e9ade7944e3a6da44a0ec86bd4a.setIcon(icon_e074eedcfd384b2092d0db15e2290219);
+            
+    
+            var popup_ddd04388809e4e7f9f7ea796a86b0964 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d449834486594433a5a39cbf861210eb = $(`<div id="html_d449834486594433a5a39cbf861210eb" style="width: 100.0%; height: 100.0%;">the-chaiwala-tollygunge</div>`)[0];
+                popup_ddd04388809e4e7f9f7ea796a86b0964.setContent(html_d449834486594433a5a39cbf861210eb);
+            
+
+            marker_7b602e9ade7944e3a6da44a0ec86bd4a.bindPopup(popup_ddd04388809e4e7f9f7ea796a86b0964)
+            ;
+
+            
+        
+    
+        var marker_ba0eeed198254b0c983669c916924161 = L.marker(
+            [22.6778, 88.4467],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_620b15428057407abd669f2aca3c7a6b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ba0eeed198254b0c983669c916924161.setIcon(icon_620b15428057407abd669f2aca3c7a6b);
+            
+    
+            var popup_6a2177718657409199fca857c1f2cd22 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3d9269c689c042deb25e94a0ebc886e3 = $(`<div id="html_3d9269c689c042deb25e94a0ebc886e3" style="width: 100.0%; height: 100.0%;">sher-e-punjab-barasat</div>`)[0];
+                popup_6a2177718657409199fca857c1f2cd22.setContent(html_3d9269c689c042deb25e94a0ebc886e3);
+            
+
+            marker_ba0eeed198254b0c983669c916924161.bindPopup(popup_6a2177718657409199fca857c1f2cd22)
+            ;
+
+            
+        
+    
+        var marker_e3c8fb428789419bae4a54ca8fdbd2c9 = L.marker(
+            [22.5518, 88.3535],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_eba103588530443b92f78fd5bc0daa3e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e3c8fb428789419bae4a54ca8fdbd2c9.setIcon(icon_eba103588530443b92f78fd5bc0daa3e);
+            
+    
+            var popup_d03dc96a88754d2bb108b150411fef2d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f850d123d8f40ca91e8ba1165d1c7bf = $(`<div id="html_5f850d123d8f40ca91e8ba1165d1c7bf" style="width: 100.0%; height: 100.0%;">pa-pa-ya-park-street-area</div>`)[0];
+                popup_d03dc96a88754d2bb108b150411fef2d.setContent(html_5f850d123d8f40ca91e8ba1165d1c7bf);
+            
+
+            marker_e3c8fb428789419bae4a54ca8fdbd2c9.bindPopup(popup_d03dc96a88754d2bb108b150411fef2d)
+            ;
+
+            
+        
+    
+        var marker_1913b6e3bcce49ae82bdcdfae56a701a = L.marker(
+            [22.5529, 88.3527],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_66e6cc07e3b04c949db11e139068fef7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1913b6e3bcce49ae82bdcdfae56a701a.setIcon(icon_66e6cc07e3b04c949db11e139068fef7);
+            
+    
+            var popup_1303ab0719024cedad1fbe8ba5de581e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_54502aa2b9d84015a7b60262d267db0c = $(`<div id="html_54502aa2b9d84015a7b60262d267db0c" style="width: 100.0%; height: 100.0%;">mcdonalds-park-street-area</div>`)[0];
+                popup_1303ab0719024cedad1fbe8ba5de581e.setContent(html_54502aa2b9d84015a7b60262d267db0c);
+            
+
+            marker_1913b6e3bcce49ae82bdcdfae56a701a.bindPopup(popup_1303ab0719024cedad1fbe8ba5de581e)
+            ;
+
+            
+        
+    
+        var marker_9f0ecde4bd1546d2b3bd9c0af337aba0 = L.marker(
+            [22.5091, 88.3667],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_c01709dcbe1248c29421558ed2336ad3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f0ecde4bd1546d2b3bd9c0af337aba0.setIcon(icon_c01709dcbe1248c29421558ed2336ad3);
+            
+    
+            var popup_07e30deb128b4d3fafd8fe543336a7a9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7a176e5df94a492887c954f80faf3c0e = $(`<div id="html_7a176e5df94a492887c954f80faf3c0e" style="width: 100.0%; height: 100.0%;">dollys-the-tea-shop-dhakuria</div>`)[0];
+                popup_07e30deb128b4d3fafd8fe543336a7a9.setContent(html_7a176e5df94a492887c954f80faf3c0e);
+            
+
+            marker_9f0ecde4bd1546d2b3bd9c0af337aba0.bindPopup(popup_07e30deb128b4d3fafd8fe543336a7a9)
+            ;
+
+            
+        
+    
+        var marker_080818b2c01e4689a5bbe711f0496109 = L.marker(
+            [22.5347, 88.3535],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_1c29d80eaa7d4718b4fe4a06aef70f55 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_080818b2c01e4689a5bbe711f0496109.setIcon(icon_1c29d80eaa7d4718b4fe4a06aef70f55);
+            
+    
+            var popup_c7a96d27fb4244f78619f0fd34eaa2ab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e2da2b9994734c529f53da0e7e07e9b0 = $(`<div id="html_e2da2b9994734c529f53da0e7e07e9b0" style="width: 100.0%; height: 100.0%;">my-big-fat-belly-bhawanipur</div>`)[0];
+                popup_c7a96d27fb4244f78619f0fd34eaa2ab.setContent(html_e2da2b9994734c529f53da0e7e07e9b0);
+            
+
+            marker_080818b2c01e4689a5bbe711f0496109.bindPopup(popup_c7a96d27fb4244f78619f0fd34eaa2ab)
+            ;
+
+            
+        
+    
+        var marker_923a99ac281f462795531107d359de6b = L.marker(
+            [22.5693, 88.433],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_ab6c2ca98a9a4e75be45418f706e192c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_923a99ac281f462795531107d359de6b.setIcon(icon_ab6c2ca98a9a4e75be45418f706e192c);
+            
+    
+            var popup_d1a03f02e07b4a83aa793ecd2a1b3229 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4d4fef0adbe94948b706c19dc7255418 = $(`<div id="html_4d4fef0adbe94948b706c19dc7255418" style="width: 100.0%; height: 100.0%;">pour-house-sector-5-salt-lake</div>`)[0];
+                popup_d1a03f02e07b4a83aa793ecd2a1b3229.setContent(html_4d4fef0adbe94948b706c19dc7255418);
+            
+
+            marker_923a99ac281f462795531107d359de6b.bindPopup(popup_d1a03f02e07b4a83aa793ecd2a1b3229)
+            ;
+
+            
+        
+    
+        var marker_695cf30903cb477cbe4d7f0d02c7a465 = L.marker(
+            [22.5342, 88.3536],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_a03d88bc2c4843d5b2bceb83a7826a78 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_695cf30903cb477cbe4d7f0d02c7a465.setIcon(icon_a03d88bc2c4843d5b2bceb83a7826a78);
+            
+    
+            var popup_31aaf20805a6429fa866af2d4b26e92d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6b914b948e544b1fbd9e5eb83c15a49d = $(`<div id="html_6b914b948e544b1fbd9e5eb83c15a49d" style="width: 100.0%; height: 100.0%;">pabrais-fresh-and-naturelle-ice-cream-paddapukur</div>`)[0];
+                popup_31aaf20805a6429fa866af2d4b26e92d.setContent(html_6b914b948e544b1fbd9e5eb83c15a49d);
+            
+
+            marker_695cf30903cb477cbe4d7f0d02c7a465.bindPopup(popup_31aaf20805a6429fa866af2d4b26e92d)
+            ;
+
+            
+        
+    
+        var marker_dce5d994502e439bb22597b73e4d89e9 = L.marker(
+            [22.4961, 88.37],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_78fd24dbd6804d2b83ad4454e7815b1b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dce5d994502e439bb22597b73e4d89e9.setIcon(icon_78fd24dbd6804d2b83ad4454e7815b1b);
+            
+    
+            var popup_aae74aafbefd4d6abce673cd2ee5d4b8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_81a693c90b5543fbaea9fc65965a37ce = $(`<div id="html_81a693c90b5543fbaea9fc65965a37ce" style="width: 100.0%; height: 100.0%;">bake-club-jadavpur</div>`)[0];
+                popup_aae74aafbefd4d6abce673cd2ee5d4b8.setContent(html_81a693c90b5543fbaea9fc65965a37ce);
+            
+
+            marker_dce5d994502e439bb22597b73e4d89e9.bindPopup(popup_aae74aafbefd4d6abce673cd2ee5d4b8)
+            ;
+
+            
+        
+    
+        var marker_5d97fad96d304eb7bbaee669b1b2badf = L.marker(
+            [22.4928, 88.3922],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_71a9c6e63b764ecf9134921115d7e4c7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d97fad96d304eb7bbaee669b1b2badf.setIcon(icon_71a9c6e63b764ecf9134921115d7e4c7);
+            
+    
+            var popup_2fc64e51a12248489487073bfe58e412 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bd9fc5a2529e4a08936635d91079f9ef = $(`<div id="html_bd9fc5a2529e4a08936635d91079f9ef" style="width: 100.0%; height: 100.0%;">the-cake-counter-santoshpur</div>`)[0];
+                popup_2fc64e51a12248489487073bfe58e412.setContent(html_bd9fc5a2529e4a08936635d91079f9ef);
+            
+
+            marker_5d97fad96d304eb7bbaee669b1b2badf.bindPopup(popup_2fc64e51a12248489487073bfe58e412)
+            ;
+
+            
+        
+    
+        var marker_f4e29df6e2654dc4af177fff8cbf57c8 = L.marker(
+            [22.5473, 88.3504],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_9909f2b4176a4b118dfd8f01b0467fbd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f4e29df6e2654dc4af177fff8cbf57c8.setIcon(icon_9909f2b4176a4b118dfd8f01b0467fbd);
+            
+    
+            var popup_f5f4319d86c14e918a6cc0968fc5cc98 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_88e7baa3a9b543d590253d61195351ce = $(`<div id="html_88e7baa3a9b543d590253d61195351ce" style="width: 100.0%; height: 100.0%;">gabbars-bar-kitchen-camac-street-area</div>`)[0];
+                popup_f5f4319d86c14e918a6cc0968fc5cc98.setContent(html_88e7baa3a9b543d590253d61195351ce);
+            
+
+            marker_f4e29df6e2654dc4af177fff8cbf57c8.bindPopup(popup_f5f4319d86c14e918a6cc0968fc5cc98)
+            ;
+
+            
+        
+    
+        var marker_7f23dca4bf1f4b06970cfb6b8c90c1fb = L.marker(
+            [22.5387, 88.3656],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_c33cca6c94664342ae2189b57a80aa27 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7f23dca4bf1f4b06970cfb6b8c90c1fb.setIcon(icon_c33cca6c94664342ae2189b57a80aa27);
+            
+    
+            var popup_68020bf23a704c16b684fadfd4ec3ffb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7766ffc0773f43c188ba1a38fa950cad = $(`<div id="html_7766ffc0773f43c188ba1a38fa950cad" style="width: 100.0%; height: 100.0%;">bombay-brasserie-ballygunge</div>`)[0];
+                popup_68020bf23a704c16b684fadfd4ec3ffb.setContent(html_7766ffc0773f43c188ba1a38fa950cad);
+            
+
+            marker_7f23dca4bf1f4b06970cfb6b8c90c1fb.bindPopup(popup_68020bf23a704c16b684fadfd4ec3ffb)
+            ;
+
+            
+        
+    
+        var marker_773c90c61cd14db8b8bb1c44a901bd8e = L.marker(
+            [22.5159, 88.3489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_7d028447b01e4cff85482466373cdcad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_773c90c61cd14db8b8bb1c44a901bd8e.setIcon(icon_7d028447b01e4cff85482466373cdcad);
+            
+    
+            var popup_9679a55730e24a8e9e94eac0316ebbfa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1be6ad463ef24ecbae5859f0e3825c3b = $(`<div id="html_1be6ad463ef24ecbae5859f0e3825c3b" style="width: 100.0%; height: 100.0%;">tandoor-house-1-lake-market-area</div>`)[0];
+                popup_9679a55730e24a8e9e94eac0316ebbfa.setContent(html_1be6ad463ef24ecbae5859f0e3825c3b);
+            
+
+            marker_773c90c61cd14db8b8bb1c44a901bd8e.bindPopup(popup_9679a55730e24a8e9e94eac0316ebbfa)
+            ;
+
+            
+        
+    
+        var marker_d1b30c4a6ee243c4bea7c755363d246a = L.marker(
+            [22.5026, 88.3596],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_70f27e6ac900409bbc90f6eae7a917fe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d1b30c4a6ee243c4bea7c755363d246a.setIcon(icon_70f27e6ac900409bbc90f6eae7a917fe);
+            
+    
+            var popup_dbac2f119968497b8273016524fd52c7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af3890389a0242dda318648ea49dea3f = $(`<div id="html_af3890389a0242dda318648ea49dea3f" style="width: 100.0%; height: 100.0%;">hanglaatherium-prince-anwar-shah-road</div>`)[0];
+                popup_dbac2f119968497b8273016524fd52c7.setContent(html_af3890389a0242dda318648ea49dea3f);
+            
+
+            marker_d1b30c4a6ee243c4bea7c755363d246a.bindPopup(popup_dbac2f119968497b8273016524fd52c7)
+            ;
+
+            
+        
+    
+        var marker_39ed8a7c20ff4cdea84ed0370392e208 = L.marker(
+            [22.5529, 88.3525],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_c8efb2f63b8747ad933680ed92e02271 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_39ed8a7c20ff4cdea84ed0370392e208.setIcon(icon_c8efb2f63b8747ad933680ed92e02271);
+            
+    
+            var popup_0031bc5b0f89436fb870bd8f2edd04b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3ef57f48b4a74f5cb02094e5cc79747a = $(`<div id="html_3ef57f48b4a74f5cb02094e5cc79747a" style="width: 100.0%; height: 100.0%;">flurys-park-street-area</div>`)[0];
+                popup_0031bc5b0f89436fb870bd8f2edd04b5.setContent(html_3ef57f48b4a74f5cb02094e5cc79747a);
+            
+
+            marker_39ed8a7c20ff4cdea84ed0370392e208.bindPopup(popup_0031bc5b0f89436fb870bd8f2edd04b5)
+            ;
+
+            
+        
+    
+        var marker_a39952d9f3b64a979d85a70bdb5c2889 = L.marker(
+            [22.5607, 88.3516],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_3be4f1bbd7ee4489a33b70db2089f0c7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a39952d9f3b64a979d85a70bdb5c2889.setIcon(icon_3be4f1bbd7ee4489a33b70db2089f0c7);
+            
+    
+            var popup_21b0a82cbf0b4fe0834d7d577de789d2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6d2a9cb8f479491e9485142045920dda = $(`<div id="html_6d2a9cb8f479491e9485142045920dda" style="width: 100.0%; height: 100.0%;">new-empire-bar-new-market-area</div>`)[0];
+                popup_21b0a82cbf0b4fe0834d7d577de789d2.setContent(html_6d2a9cb8f479491e9485142045920dda);
+            
+
+            marker_a39952d9f3b64a979d85a70bdb5c2889.bindPopup(popup_21b0a82cbf0b4fe0834d7d577de789d2)
+            ;
+
+            
+        
+    
+        var marker_65fa52baa5d743028f8c83af1714658c = L.marker(
+            [22.4922, 88.3462],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_78afa4c330a24c838cdb1c3647c8c06d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_65fa52baa5d743028f8c83af1714658c.setIcon(icon_78afa4c330a24c838cdb1c3647c8c06d);
+            
+    
+            var popup_d459de44570b4d1a8b73db57a10c5cbb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b1ffe1be087a4c038cf515bfcd401cd7 = $(`<div id="html_b1ffe1be087a4c038cf515bfcd401cd7" style="width: 100.0%; height: 100.0%;">silver-screen-tollygunge</div>`)[0];
+                popup_d459de44570b4d1a8b73db57a10c5cbb.setContent(html_b1ffe1be087a4c038cf515bfcd401cd7);
+            
+
+            marker_65fa52baa5d743028f8c83af1714658c.bindPopup(popup_d459de44570b4d1a8b73db57a10c5cbb)
+            ;
+
+            
+        
+    
+        var marker_65a75aa8b58e4aa880d0d6c8a05a064c = L.marker(
+            [22.5141, 88.3559],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_b433519e3e5c42529f349e03530efad5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_65a75aa8b58e4aa880d0d6c8a05a064c.setIcon(icon_b433519e3e5c42529f349e03530efad5);
+            
+    
+            var popup_c579eecd0d0f40d587519639cee24469 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9efd4a753b2e40a3b2073fd312029ef2 = $(`<div id="html_9efd4a753b2e40a3b2073fd312029ef2" style="width: 100.0%; height: 100.0%;">asia-house-southern-avenue</div>`)[0];
+                popup_c579eecd0d0f40d587519639cee24469.setContent(html_9efd4a753b2e40a3b2073fd312029ef2);
+            
+
+            marker_65a75aa8b58e4aa880d0d6c8a05a064c.bindPopup(popup_c579eecd0d0f40d587519639cee24469)
+            ;
+
+            
+        
+    
+        var marker_74859a56204f48ea85621e33d8c81b5a = L.marker(
+            [22.5392, 88.3477],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_fa8a15d05e644fe7b3729f5fd61ea52d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_74859a56204f48ea85621e33d8c81b5a.setIcon(icon_fa8a15d05e644fe7b3729f5fd61ea52d);
+            
+    
+            var popup_793a7077845041118bc5d21b48de35cc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5d03374512ab4d26af10494f005d4d75 = $(`<div id="html_5d03374512ab4d26af10494f005d4d75" style="width: 100.0%; height: 100.0%;">hamro-momo-elgin</div>`)[0];
+                popup_793a7077845041118bc5d21b48de35cc.setContent(html_5d03374512ab4d26af10494f005d4d75);
+            
+
+            marker_74859a56204f48ea85621e33d8c81b5a.bindPopup(popup_793a7077845041118bc5d21b48de35cc)
+            ;
+
+            
+        
+    
+        var marker_18e7a49ae30b4f2f90faa574ed0d12f9 = L.marker(
+            [22.5878, 88.4081],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_8e51a4819519477b8294b7c85c7195bf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_18e7a49ae30b4f2f90faa574ed0d12f9.setIcon(icon_8e51a4819519477b8294b7c85c7195bf);
+            
+    
+            var popup_7e0f1136d33f4301a41cf6ec36159c1e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_86bcc5d6cb8541c0ab3e40e3408f7f49 = $(`<div id="html_86bcc5d6cb8541c0ab3e40e3408f7f49" style="width: 100.0%; height: 100.0%;">afraa-restaurant-and-lounge-sector-1-salt-lake</div>`)[0];
+                popup_7e0f1136d33f4301a41cf6ec36159c1e.setContent(html_86bcc5d6cb8541c0ab3e40e3408f7f49);
+            
+
+            marker_18e7a49ae30b4f2f90faa574ed0d12f9.bindPopup(popup_7e0f1136d33f4301a41cf6ec36159c1e)
+            ;
+
+            
+        
+    
+        var marker_f91991bde138428e958435bb376ddca3 = L.marker(
+            [22.5066, 88.3673],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_9b19f0cfdba64fb7941e9b0250907ba2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f91991bde138428e958435bb376ddca3.setIcon(icon_9b19f0cfdba64fb7941e9b0250907ba2);
+            
+    
+            var popup_54c70a39ce1441c487c6e445680f4506 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_44f72bf4eaf14152bd2f34aafd9a6d1a = $(`<div id="html_44f72bf4eaf14152bd2f34aafd9a6d1a" style="width: 100.0%; height: 100.0%;">tandoor-park-dhakuria</div>`)[0];
+                popup_54c70a39ce1441c487c6e445680f4506.setContent(html_44f72bf4eaf14152bd2f34aafd9a6d1a);
+            
+
+            marker_f91991bde138428e958435bb376ddca3.bindPopup(popup_54c70a39ce1441c487c6e445680f4506)
+            ;
+
+            
+        
+    
+        var marker_718ef8f1a2ec419086c8478cb26b7dee = L.marker(
+            [22.5164, 88.367],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_578a3b4b4eb74df0a0ff2707bbee2691 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_718ef8f1a2ec419086c8478cb26b7dee.setIcon(icon_578a3b4b4eb74df0a0ff2707bbee2691);
+            
+    
+            var popup_f134d23474cc495aad660012266ec8e2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ee191199b1cb497c9f2d44c37168f475 = $(`<div id="html_ee191199b1cb497c9f2d44c37168f475" style="width: 100.0%; height: 100.0%;">the-whistling-kettle-golpark</div>`)[0];
+                popup_f134d23474cc495aad660012266ec8e2.setContent(html_ee191199b1cb497c9f2d44c37168f475);
+            
+
+            marker_718ef8f1a2ec419086c8478cb26b7dee.bindPopup(popup_f134d23474cc495aad660012266ec8e2)
+            ;
+
+            
+        
+    
+        var marker_b6424dcd8d6c40bfa874d160aaef653b = L.marker(
+            [22.5149, 88.3934],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_3d0e4516da6b4d16bd78d0324041d1b3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b6424dcd8d6c40bfa874d160aaef653b.setIcon(icon_3d0e4516da6b4d16bd78d0324041d1b3);
+            
+    
+            var popup_5eab37e71a3b4af1a322f11cae049c9c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f7f168890e954051ad0bf245628c5a84 = $(`<div id="html_f7f168890e954051ad0bf245628c5a84" style="width: 100.0%; height: 100.0%;">gelato-vinto-kasba</div>`)[0];
+                popup_5eab37e71a3b4af1a322f11cae049c9c.setContent(html_f7f168890e954051ad0bf245628c5a84);
+            
+
+            marker_b6424dcd8d6c40bfa874d160aaef653b.bindPopup(popup_5eab37e71a3b4af1a322f11cae049c9c)
+            ;
+
+            
+        
+    
+        var marker_b85c60c9cf20440883b0a29e55499acc = L.marker(
+            [22.5128, 88.3491],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_33afefd793cd4521b9bc12226bae9640 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b85c60c9cf20440883b0a29e55499acc.setIcon(icon_33afefd793cd4521b9bc12226bae9640);
+            
+    
+            var popup_f127125bd64d4615ab4dc88d2c34c0da = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0d8084731d4741abb2d936e7a20898a6 = $(`<div id="html_0d8084731d4741abb2d936e7a20898a6" style="width: 100.0%; height: 100.0%;">the-eye-within-club-1-southern-avenue</div>`)[0];
+                popup_f127125bd64d4615ab4dc88d2c34c0da.setContent(html_0d8084731d4741abb2d936e7a20898a6);
+            
+
+            marker_b85c60c9cf20440883b0a29e55499acc.bindPopup(popup_f127125bd64d4615ab4dc88d2c34c0da)
+            ;
+
+            
+        
+    
+        var marker_ebf7a8b8dbd04fee8dde44e14ab65f91 = L.marker(
+            [22.5218, 88.365],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_b7c2a0c8c54f4a679e51da0d28108b95 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ebf7a8b8dbd04fee8dde44e14ab65f91.setIcon(icon_b7c2a0c8c54f4a679e51da0d28108b95);
+            
+    
+            var popup_8656d764ee81420f812c910d40972510 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6d6565cd70b14106bab33ced409bd275 = $(`<div id="html_6d6565cd70b14106bab33ced409bd275" style="width: 100.0%; height: 100.0%;">china-whites-gariahat</div>`)[0];
+                popup_8656d764ee81420f812c910d40972510.setContent(html_6d6565cd70b14106bab33ced409bd275);
+            
+
+            marker_ebf7a8b8dbd04fee8dde44e14ab65f91.bindPopup(popup_8656d764ee81420f812c910d40972510)
+            ;
+
+            
+        
+    
+        var marker_ecdd811e6d8a456c9d58276e25ebf9a4 = L.marker(
+            [22.5604, 88.3517],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_7cdbe7e9419d4320ab4d1e3be34e55f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ecdd811e6d8a456c9d58276e25ebf9a4.setIcon(icon_7cdbe7e9419d4320ab4d1e3be34e55f5);
+            
+    
+            var popup_3c3a5f8a39de4860827d2aa67cdfb0ed = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f083d78ae55642809f4eb371b3411fd9 = $(`<div id="html_f083d78ae55642809f4eb371b3411fd9" style="width: 100.0%; height: 100.0%;">scoop-new-market-area</div>`)[0];
+                popup_3c3a5f8a39de4860827d2aa67cdfb0ed.setContent(html_f083d78ae55642809f4eb371b3411fd9);
+            
+
+            marker_ecdd811e6d8a456c9d58276e25ebf9a4.bindPopup(popup_3c3a5f8a39de4860827d2aa67cdfb0ed)
+            ;
+
+            
+        
+    
+        var marker_ef5486e3ed41466d96d3c7997672bc3b = L.marker(
+            [22.5689, 88.4338],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_150551f0ff4d41f78afedba80ca079aa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ef5486e3ed41466d96d3c7997672bc3b.setIcon(icon_150551f0ff4d41f78afedba80ca079aa);
+            
+    
+            var popup_7ab7a0d22c0c4e8e850d26082da55042 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a6766b5ba3ee49879070e31cbb5e3e95 = $(`<div id="html_a6766b5ba3ee49879070e31cbb5e3e95" style="width: 100.0%; height: 100.0%;">go-where-sector-5-salt-lake</div>`)[0];
+                popup_7ab7a0d22c0c4e8e850d26082da55042.setContent(html_a6766b5ba3ee49879070e31cbb5e3e95);
+            
+
+            marker_ef5486e3ed41466d96d3c7997672bc3b.bindPopup(popup_7ab7a0d22c0c4e8e850d26082da55042)
+            ;
+
+            
+        
+    
+        var marker_097e5ccdaf7f4bbc9524c7155d6b9193 = L.marker(
+            [22.553, 88.3525],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_5ae6ebd67c1b455d866a1289772f191a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_097e5ccdaf7f4bbc9524c7155d6b9193.setIcon(icon_5ae6ebd67c1b455d866a1289772f191a);
+            
+    
+            var popup_88ecef6b9d0349779e4ecf601b81fdd9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_054a06657e0240dfafffdc90f5e467ba = $(`<div id="html_054a06657e0240dfafffdc90f5e467ba" style="width: 100.0%; height: 100.0%;">silver-grill-park-street-area</div>`)[0];
+                popup_88ecef6b9d0349779e4ecf601b81fdd9.setContent(html_054a06657e0240dfafffdc90f5e467ba);
+            
+
+            marker_097e5ccdaf7f4bbc9524c7155d6b9193.bindPopup(popup_88ecef6b9d0349779e4ecf601b81fdd9)
+            ;
+
+            
+        
+    
+        var marker_2784d9fb1a7c411e88aa1ef5566285ae = L.marker(
+            [22.4961, 88.37],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_b3772cfa9010461fa90a8a561f24d56f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2784d9fb1a7c411e88aa1ef5566285ae.setIcon(icon_b3772cfa9010461fa90a8a561f24d56f);
+            
+    
+            var popup_4d1a0414cacc490c9de4b27ff415380a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a35aa2781c2748eb966436302b5af015 = $(`<div id="html_a35aa2781c2748eb966436302b5af015" style="width: 100.0%; height: 100.0%;">bhooter-raja-dilo-bar-jadavpur</div>`)[0];
+                popup_4d1a0414cacc490c9de4b27ff415380a.setContent(html_a35aa2781c2748eb966436302b5af015);
+            
+
+            marker_2784d9fb1a7c411e88aa1ef5566285ae.bindPopup(popup_4d1a0414cacc490c9de4b27ff415380a)
+            ;
+
+            
+        
+    
+        var marker_086f77d04ecf48bfab424ee124735886 = L.marker(
+            [22.5934, 88.4062],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_4b5b99795fc343b9a86ef27c6a8577ae = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_086f77d04ecf48bfab424ee124735886.setIcon(icon_4b5b99795fc343b9a86ef27c6a8577ae);
+            
+    
+            var popup_e6841e82c9484391a84bb272f40ba269 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0b0b3e347fb444caaeb2bc42907bda23 = $(`<div id="html_0b0b3e347fb444caaeb2bc42907bda23" style="width: 100.0%; height: 100.0%;">calcutta-64-sector-1-salt-lake</div>`)[0];
+                popup_e6841e82c9484391a84bb272f40ba269.setContent(html_0b0b3e347fb444caaeb2bc42907bda23);
+            
+
+            marker_086f77d04ecf48bfab424ee124735886.bindPopup(popup_e6841e82c9484391a84bb272f40ba269)
+            ;
+
+            
+        
+    
+        var marker_bfaab0a85b244f1fb4af5d350d2609c6 = L.marker(
+            [22.5141, 88.3267],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_ea3b155c439b438b884aa4930bbfc7a1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bfaab0a85b244f1fb4af5d350d2609c6.setIcon(icon_ea3b155c439b438b884aa4930bbfc7a1);
+            
+    
+            var popup_f05a1c6d154d4237b0e103df75fd789c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f10fb1163e2245f0bc2b24ee1efb0a17 = $(`<div id="html_f10fb1163e2245f0bc2b24ee1efb0a17" style="width: 100.0%; height: 100.0%;">mumbles-lab-theatre-road</div>`)[0];
+                popup_f05a1c6d154d4237b0e103df75fd789c.setContent(html_f10fb1163e2245f0bc2b24ee1efb0a17);
+            
+
+            marker_bfaab0a85b244f1fb4af5d350d2609c6.bindPopup(popup_f05a1c6d154d4237b0e103df75fd789c)
+            ;
+
+            
+        
+    
+        var marker_cc01cb4a1bc0483689e59639ffa55150 = L.marker(
+            [22.5279, 88.3678],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_b650e58e2c8c43eeb4e11eda827e478d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cc01cb4a1bc0483689e59639ffa55150.setIcon(icon_b650e58e2c8c43eeb4e11eda827e478d);
+            
+    
+            var popup_611cf0b520ac48c0b8aa50a01107c814 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_05ebfc81aa304000b7a20f93d89113fc = $(`<div id="html_05ebfc81aa304000b7a20f93d89113fc" style="width: 100.0%; height: 100.0%;">alla-bella-mozzarella-ballygunge</div>`)[0];
+                popup_611cf0b520ac48c0b8aa50a01107c814.setContent(html_05ebfc81aa304000b7a20f93d89113fc);
+            
+
+            marker_cc01cb4a1bc0483689e59639ffa55150.bindPopup(popup_611cf0b520ac48c0b8aa50a01107c814)
+            ;
+
+            
+        
+    
+        var marker_29c8dbac9d08401b9021a1dd31766bf2 = L.marker(
+            [22.5042, 88.3633],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_d5e23a8c9bd44b43b54904fc90ee23bb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_29c8dbac9d08401b9021a1dd31766bf2.setIcon(icon_d5e23a8c9bd44b43b54904fc90ee23bb);
+            
+    
+            var popup_a7972c5fed0445b1922a600222f8703e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_43be5e25579c406a8609b19496e5f3c6 = $(`<div id="html_43be5e25579c406a8609b19496e5f3c6" style="width: 100.0%; height: 100.0%;">abar-baithak-jodhpur-park</div>`)[0];
+                popup_a7972c5fed0445b1922a600222f8703e.setContent(html_43be5e25579c406a8609b19496e5f3c6);
+            
+
+            marker_29c8dbac9d08401b9021a1dd31766bf2.bindPopup(popup_a7972c5fed0445b1922a600222f8703e)
+            ;
+
+            
+        
+    
+        var marker_4555100f57894d2ea603294c54d7375a = L.marker(
+            [22.5263, 88.3644],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_f046a537db4e49c785431a737f72bb13 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4555100f57894d2ea603294c54d7375a.setIcon(icon_f046a537db4e49c785431a737f72bb13);
+            
+    
+            var popup_a396605f95ea432aa918549d95e24b18 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b25614676fc9429dac68a169e2914a88 = $(`<div id="html_b25614676fc9429dac68a169e2914a88" style="width: 100.0%; height: 100.0%;">spice-kraft-ballygunge</div>`)[0];
+                popup_a396605f95ea432aa918549d95e24b18.setContent(html_b25614676fc9429dac68a169e2914a88);
+            
+
+            marker_4555100f57894d2ea603294c54d7375a.bindPopup(popup_a396605f95ea432aa918549d95e24b18)
+            ;
+
+            
+        
+    
+        var marker_b7a9524e7c9f4db09264a97e3d27cdb0 = L.marker(
+            [22.5133, 88.4002],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_8d736382dbd74a6fba6375d479da1b7a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7a9524e7c9f4db09264a97e3d27cdb0.setIcon(icon_8d736382dbd74a6fba6375d479da1b7a);
+            
+    
+            var popup_5e1626ec73374c08bb83885f46be0782 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_846980b82f33489997e670662a4f4702 = $(`<div id="html_846980b82f33489997e670662a4f4702" style="width: 100.0%; height: 100.0%;">buzz-the-gateway-hotel-kasba</div>`)[0];
+                popup_5e1626ec73374c08bb83885f46be0782.setContent(html_846980b82f33489997e670662a4f4702);
+            
+
+            marker_b7a9524e7c9f4db09264a97e3d27cdb0.bindPopup(popup_5e1626ec73374c08bb83885f46be0782)
+            ;
+
+            
+        
+    
+        var marker_465af4b35f6747c2874917e5e24c9142 = L.marker(
+            [22.5187, 88.3505],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_ff13bd4a20a2489b85810d2282b97a5c);
+        
+    
+
+                var icon_6f72114e156b498890cd20b163ae18e9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_465af4b35f6747c2874917e5e24c9142.setIcon(icon_6f72114e156b498890cd20b163ae18e9);
+            
+    
+            var popup_0428c75b9ac94d1a9ac0b55d45dbf55d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_549b4f6e34e24ffea5ed3b6b49b92005 = $(`<div id="html_549b4f6e34e24ffea5ed3b6b49b92005" style="width: 100.0%; height: 100.0%;">oudh-1590-desapriya-park</div>`)[0];
+                popup_0428c75b9ac94d1a9ac0b55d45dbf55d.setContent(html_549b4f6e34e24ffea5ed3b6b49b92005);
+            
+
+            marker_465af4b35f6747c2874917e5e24c9142.bindPopup(popup_0428c75b9ac94d1a9ac0b55d45dbf55d)
+            ;
+
+            
+        
+    
+            var feature_group_036c925c455c4901b1556b6242e41f81 = L.featureGroup(
+                ).addTo(map_d8ff66e42674431295daba0ee86fcd45);
+        
+    
+        var marker_45196fffcde34b91a2f79b3222c7bde7 = L.marker(
+            [22.5515, 88.3539],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_52843b3910cc44d99252b274c7e3a43e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_45196fffcde34b91a2f79b3222c7bde7.setIcon(icon_52843b3910cc44d99252b274c7e3a43e);
+            
+    
+            var popup_e0bace2913724f1a89bf97d7a7b7d1d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b0c58489a0f547fd8d5e51d7b35cdca8 = $(`<div id="html_b0c58489a0f547fd8d5e51d7b35cdca8" style="width: 100.0%; height: 100.0%;">mamagoto-park-street-area</div>`)[0];
+                popup_e0bace2913724f1a89bf97d7a7b7d1d0.setContent(html_b0c58489a0f547fd8d5e51d7b35cdca8);
+            
+
+            marker_45196fffcde34b91a2f79b3222c7bde7.bindPopup(popup_e0bace2913724f1a89bf97d7a7b7d1d0)
+            ;
+
+            
+        
+    
+        var marker_a3f626312d1846c7a0f2ca7dcb3cf8b8 = L.marker(
+            [22.5164, 88.367],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_8d6284fdc7054ec8a019167065e67edf = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a3f626312d1846c7a0f2ca7dcb3cf8b8.setIcon(icon_8d6284fdc7054ec8a019167065e67edf);
+            
+    
+            var popup_d24d4d4d1f41464297d27fe575290de3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0cb64ccfd9a74a9ea0024db298d1266f = $(`<div id="html_0cb64ccfd9a74a9ea0024db298d1266f" style="width: 100.0%; height: 100.0%;">the-whistling-kettle-golpark</div>`)[0];
+                popup_d24d4d4d1f41464297d27fe575290de3.setContent(html_0cb64ccfd9a74a9ea0024db298d1266f);
+            
+
+            marker_a3f626312d1846c7a0f2ca7dcb3cf8b8.bindPopup(popup_d24d4d4d1f41464297d27fe575290de3)
+            ;
+
+            
+        
+    
+        var marker_2bb6785fa4264c589611378a1b75ea24 = L.marker(
+            [22.539, 88.3654],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_9b8b731a91d243ebbc30795430688bd1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2bb6785fa4264c589611378a1b75ea24.setIcon(icon_9b8b731a91d243ebbc30795430688bd1);
+            
+    
+            var popup_006cc96450eb4a829d0aa4437afb0c5f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b4ecf3ca49454aae8ca4cf7e709fc660 = $(`<div id="html_b4ecf3ca49454aae8ca4cf7e709fc660" style="width: 100.0%; height: 100.0%;">nawwarah-fine-dine-lounge-ballygunge</div>`)[0];
+                popup_006cc96450eb4a829d0aa4437afb0c5f.setContent(html_b4ecf3ca49454aae8ca4cf7e709fc660);
+            
+
+            marker_2bb6785fa4264c589611378a1b75ea24.bindPopup(popup_006cc96450eb4a829d0aa4437afb0c5f)
+            ;
+
+            
+        
+    
+        var marker_af5dd65546a849cab67fcc86722d4b0e = L.marker(
+            [22.517, 88.3452],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_ccc9c9318f3f4a35b05b513186279997 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af5dd65546a849cab67fcc86722d4b0e.setIcon(icon_ccc9c9318f3f4a35b05b513186279997);
+            
+    
+            var popup_0821798e0b44425abc2e6b039f3a4bd4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c6b65e1cc34f4d7baeed0e75a493164b = $(`<div id="html_c6b65e1cc34f4d7baeed0e75a493164b" style="width: 100.0%; height: 100.0%;">bachans-dhaba-kalighat</div>`)[0];
+                popup_0821798e0b44425abc2e6b039f3a4bd4.setContent(html_c6b65e1cc34f4d7baeed0e75a493164b);
+            
+
+            marker_af5dd65546a849cab67fcc86722d4b0e.bindPopup(popup_0821798e0b44425abc2e6b039f3a4bd4)
+            ;
+
+            
+        
+    
+        var marker_8b6d6827c91b47fd960b6e4431e92ee9 = L.marker(
+            [22.5585, 88.3507],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_00e38948b4284ffe9c0c4c7e4489857a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b6d6827c91b47fd960b6e4431e92ee9.setIcon(icon_00e38948b4284ffe9c0c4c7e4489857a);
+            
+    
+            var popup_915b070ee2394ef1a6441a38c202f4e7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fcfc0593cfbe48319b0e8fb5e91243d9 = $(`<div id="html_fcfc0593cfbe48319b0e8fb5e91243d9" style="width: 100.0%; height: 100.0%;">soi-new-market-area</div>`)[0];
+                popup_915b070ee2394ef1a6441a38c202f4e7.setContent(html_fcfc0593cfbe48319b0e8fb5e91243d9);
+            
+
+            marker_8b6d6827c91b47fd960b6e4431e92ee9.bindPopup(popup_915b070ee2394ef1a6441a38c202f4e7)
+            ;
+
+            
+        
+    
+        var marker_a33fde3512ac434e930815e7fc4e9022 = L.marker(
+            [22.5042, 88.3647],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_ae54172c0ca54ed68cade81d1d0a604b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a33fde3512ac434e930815e7fc4e9022.setIcon(icon_ae54172c0ca54ed68cade81d1d0a604b);
+            
+    
+            var popup_9d0e4cc388cb48479a1a51f3ccce1e5f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a7bad932732f4c168d434257e65f433a = $(`<div id="html_a7bad932732f4c168d434257e65f433a" style="width: 100.0%; height: 100.0%;">the-taste-maker-jodhpur-park</div>`)[0];
+                popup_9d0e4cc388cb48479a1a51f3ccce1e5f.setContent(html_a7bad932732f4c168d434257e65f433a);
+            
+
+            marker_a33fde3512ac434e930815e7fc4e9022.bindPopup(popup_9d0e4cc388cb48479a1a51f3ccce1e5f)
+            ;
+
+            
+        
+    
+        var marker_748888c970f94e058c63e26cb3f63fbe = L.marker(
+            [22.5204, 88.3462],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_bcbe1d893840429bbe7150f702058b9f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_748888c970f94e058c63e26cb3f63fbe.setIcon(icon_bcbe1d893840429bbe7150f702058b9f);
+            
+    
+            var popup_f5d0d50475334461a60a2c5fb2c4189d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8fa4fbc76bd049a3b7db7d337bb0431b = $(`<div id="html_8fa4fbc76bd049a3b7db7d337bb0431b" style="width: 100.0%; height: 100.0%;">singh-n-ching-kalighat</div>`)[0];
+                popup_f5d0d50475334461a60a2c5fb2c4189d.setContent(html_8fa4fbc76bd049a3b7db7d337bb0431b);
+            
+
+            marker_748888c970f94e058c63e26cb3f63fbe.bindPopup(popup_f5d0d50475334461a60a2c5fb2c4189d)
+            ;
+
+            
+        
+    
+        var marker_09607928c3214667af379da61bbc1dad = L.marker(
+            [22.5346, 88.3535],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_1d470fa282584571b4c9e805a5f42296 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09607928c3214667af379da61bbc1dad.setIcon(icon_1d470fa282584571b4c9e805a5f42296);
+            
+    
+            var popup_a52e1dc5bce443369d4fac1af66e0748 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_90c5e769a1f4432fa9d300efab023f0b = $(`<div id="html_90c5e769a1f4432fa9d300efab023f0b" style="width: 100.0%; height: 100.0%;">the-dugout-bhawanipur</div>`)[0];
+                popup_a52e1dc5bce443369d4fac1af66e0748.setContent(html_90c5e769a1f4432fa9d300efab023f0b);
+            
+
+            marker_09607928c3214667af379da61bbc1dad.bindPopup(popup_a52e1dc5bce443369d4fac1af66e0748)
+            ;
+
+            
+        
+    
+        var marker_56e3d2aec84d4bcd8bc76851c45b4489 = L.marker(
+            [22.5536, 88.3518],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_f658aa82c1384c1c95ff306bf2b8207b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_56e3d2aec84d4bcd8bc76851c45b4489.setIcon(icon_f658aa82c1384c1c95ff306bf2b8207b);
+            
+    
+            var popup_0bfc295ad078462e8caf99bafa29b2e9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e230696028d94daca14dbfe1ae58e778 = $(`<div id="html_e230696028d94daca14dbfe1ae58e778" style="width: 100.0%; height: 100.0%;">hakuna-matata-park-street-area</div>`)[0];
+                popup_0bfc295ad078462e8caf99bafa29b2e9.setContent(html_e230696028d94daca14dbfe1ae58e778);
+            
+
+            marker_56e3d2aec84d4bcd8bc76851c45b4489.bindPopup(popup_0bfc295ad078462e8caf99bafa29b2e9)
+            ;
+
+            
+        
+    
+        var marker_dc8acd20753342f78bf1d2daa4abba79 = L.marker(
+            [22.5017, 88.3577],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_c3dd6d47b69b433586afef8f894b9237 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dc8acd20753342f78bf1d2daa4abba79.setIcon(icon_c3dd6d47b69b433586afef8f894b9237);
+            
+    
+            var popup_7baa7f5ac43e45bba7bf9e3d5f219c0a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3dface1259d6454292e64b43e6a268f6 = $(`<div id="html_3dface1259d6454292e64b43e6a268f6" style="width: 100.0%; height: 100.0%;">shawarma-nation-prince-anwar-shah-road</div>`)[0];
+                popup_7baa7f5ac43e45bba7bf9e3d5f219c0a.setContent(html_3dface1259d6454292e64b43e6a268f6);
+            
+
+            marker_dc8acd20753342f78bf1d2daa4abba79.bindPopup(popup_7baa7f5ac43e45bba7bf9e3d5f219c0a)
+            ;
+
+            
+        
+    
+        var marker_ea07d14bccbf4087a5e713c687994252 = L.marker(
+            [22.5184, 88.3589],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_e79917e711b44b5e8754444f99cc4986 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ea07d14bccbf4087a5e713c687994252.setIcon(icon_e79917e711b44b5e8754444f99cc4986);
+            
+    
+            var popup_dd34aa526da44552a376191a370413a5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_98d79ac6b9014e77ab4c06db48f90b81 = $(`<div id="html_98d79ac6b9014e77ab4c06db48f90b81" style="width: 100.0%; height: 100.0%;">mud-hindustan-park</div>`)[0];
+                popup_dd34aa526da44552a376191a370413a5.setContent(html_98d79ac6b9014e77ab4c06db48f90b81);
+            
+
+            marker_ea07d14bccbf4087a5e713c687994252.bindPopup(popup_dd34aa526da44552a376191a370413a5)
+            ;
+
+            
+        
+    
+        var marker_25fa337329df4560af7fce1461cdd0a9 = L.marker(
+            [22.4709, 88.3688],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_c6f3c91f31b9457193a54ddfd663da99 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25fa337329df4560af7fce1461cdd0a9.setIcon(icon_c6f3c91f31b9457193a54ddfd663da99);
+            
+    
+            var popup_20118292b857483d909debbd5ce4d696 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8325b8f8f36d4556a3c6a24b180f9817 = $(`<div id="html_8325b8f8f36d4556a3c6a24b180f9817" style="width: 100.0%; height: 100.0%;">the-noodle-hub-naktala</div>`)[0];
+                popup_20118292b857483d909debbd5ce4d696.setContent(html_8325b8f8f36d4556a3c6a24b180f9817);
+            
+
+            marker_25fa337329df4560af7fce1461cdd0a9.bindPopup(popup_20118292b857483d909debbd5ce4d696)
+            ;
+
+            
+        
+    
+        var marker_6a908ff2c6574c4c9ec93670b4c8061d = L.marker(
+            [22.5529, 88.3525],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_3c114edbd3ed4936b6e6154a106bf3ea = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6a908ff2c6574c4c9ec93670b4c8061d.setIcon(icon_3c114edbd3ed4936b6e6154a106bf3ea);
+            
+    
+            var popup_44bfe3101f2940e08ee06a4435ae3ff7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_18a67d5a7961469b9cc118c0ea1a990d = $(`<div id="html_18a67d5a7961469b9cc118c0ea1a990d" style="width: 100.0%; height: 100.0%;">flurys-park-street-area</div>`)[0];
+                popup_44bfe3101f2940e08ee06a4435ae3ff7.setContent(html_18a67d5a7961469b9cc118c0ea1a990d);
+            
+
+            marker_6a908ff2c6574c4c9ec93670b4c8061d.bindPopup(popup_44bfe3101f2940e08ee06a4435ae3ff7)
+            ;
+
+            
+        
+    
+        var marker_09d3114ea5e049e59cf27d786390ffcf = L.marker(
+            [22.5263, 88.3644],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_268e3cbeaf3149c1aaa283737ae21a13 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09d3114ea5e049e59cf27d786390ffcf.setIcon(icon_268e3cbeaf3149c1aaa283737ae21a13);
+            
+    
+            var popup_4dffb2d79fbb43a784a29b9eaa7c2d9b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8a6f00560e47450da6f391a5370a35af = $(`<div id="html_8a6f00560e47450da6f391a5370a35af" style="width: 100.0%; height: 100.0%;">spice-kraft-ballygunge</div>`)[0];
+                popup_4dffb2d79fbb43a784a29b9eaa7c2d9b.setContent(html_8a6f00560e47450da6f391a5370a35af);
+            
+
+            marker_09d3114ea5e049e59cf27d786390ffcf.bindPopup(popup_4dffb2d79fbb43a784a29b9eaa7c2d9b)
+            ;
+
+            
+        
+    
+        var marker_9d60bc36d18b46f4ae0400a56e9b42e8 = L.marker(
+            [22.4878, 88.3906],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_300259e1e371498489c0a4537519195a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d60bc36d18b46f4ae0400a56e9b42e8.setIcon(icon_300259e1e371498489c0a4537519195a);
+            
+    
+            var popup_986ca845f7424292a100882b710cf2b7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0e4ee589a63245f39ca01329d6ac7f4b = $(`<div id="html_0e4ee589a63245f39ca01329d6ac7f4b" style="width: 100.0%; height: 100.0%;">blu-orchid-santoshpur</div>`)[0];
+                popup_986ca845f7424292a100882b710cf2b7.setContent(html_0e4ee589a63245f39ca01329d6ac7f4b);
+            
+
+            marker_9d60bc36d18b46f4ae0400a56e9b42e8.bindPopup(popup_986ca845f7424292a100882b710cf2b7)
+            ;
+
+            
+        
+    
+        var marker_fad2511f394f45b791f4ba8da55b18c8 = L.marker(
+            [22.5473, 88.3504],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_036c925c455c4901b1556b6242e41f81);
+        
+    
+
+                var icon_c908a972e99b43c1ad6bb64f8fc37a39 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fad2511f394f45b791f4ba8da55b18c8.setIcon(icon_c908a972e99b43c1ad6bb64f8fc37a39);
+            
+    
+            var popup_bd39a90315c54cc2bb21e0f6f085fded = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6c8ad66667324396babc7cf14204ee3f = $(`<div id="html_6c8ad66667324396babc7cf14204ee3f" style="width: 100.0%; height: 100.0%;">gabbars-bar-kitchen-camac-street-area</div>`)[0];
+                popup_bd39a90315c54cc2bb21e0f6f085fded.setContent(html_6c8ad66667324396babc7cf14204ee3f);
+            
+
+            marker_fad2511f394f45b791f4ba8da55b18c8.bindPopup(popup_bd39a90315c54cc2bb21e0f6f085fded)
+            ;
+
+            
+        
+    
+            var feature_group_4890538501714b009e6e826740eff423 = L.featureGroup(
+                ).addTo(map_d8ff66e42674431295daba0ee86fcd45);
+        
+    
+        var marker_e37c14ba59d54e56b71ff251fdab347e = L.marker(
+            [22.6778, 88.4467],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_4890538501714b009e6e826740eff423);
+        
+    
+
+                var icon_f4fb0514e5b246e0a0bcedbc08ed835e = L.AwesomeMarkers.icon({
+                    icon: 'remove-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e37c14ba59d54e56b71ff251fdab347e.setIcon(icon_f4fb0514e5b246e0a0bcedbc08ed835e);
+            
+    
+            var popup_e8ceafd34f1d4831be39c3d07a754b8a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9d76e7331fbd4dcd917ffd5adbc34996 = $(`<div id="html_9d76e7331fbd4dcd917ffd5adbc34996" style="width: 100.0%; height: 100.0%;">rev addr:1</div>`)[0];
+                popup_e8ceafd34f1d4831be39c3d07a754b8a.setContent(html_9d76e7331fbd4dcd917ffd5adbc34996);
+            
+
+            marker_e37c14ba59d54e56b71ff251fdab347e.bindPopup(popup_e8ceafd34f1d4831be39c3d07a754b8a)
+            ;
+
+            
+        
+    
+        var marker_d99b51c8111a4453a6ccaf4c108d6651 = L.marker(
+            [22.5266, 88.3646],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_4890538501714b009e6e826740eff423);
+        
+    
+
+                var icon_e5ff05b21b0344ec8470997defec1cd2 = L.AwesomeMarkers.icon({
+                    icon: 'remove-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d99b51c8111a4453a6ccaf4c108d6651.setIcon(icon_e5ff05b21b0344ec8470997defec1cd2);
+            
+    
+            var popup_4b5a52d3204b47bb8db347d81519ae56 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_48cd9015d5da4c2093e6434011f4b85a = $(`<div id="html_48cd9015d5da4c2093e6434011f4b85a" style="width: 100.0%; height: 100.0%;">rev addr:2</div>`)[0];
+                popup_4b5a52d3204b47bb8db347d81519ae56.setContent(html_48cd9015d5da4c2093e6434011f4b85a);
+            
+
+            marker_d99b51c8111a4453a6ccaf4c108d6651.bindPopup(popup_4b5a52d3204b47bb8db347d81519ae56)
+            ;
+
+            
+        
+    
+            var feature_group_a5e4ffd91b1a48c4ad6a6854bed156cc = L.featureGroup(
+                ).addTo(map_d8ff66e42674431295daba0ee86fcd45);
+        
+    
+        var marker_7e45d0f23e0f4e9e850c5594e05ff584 = L.marker(
+            [22.525, 88.3588],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_a5e4ffd91b1a48c4ad6a6854bed156cc);
+        
+    
+
+                var icon_c7593ff16f584ca4b706242f37780037 = L.AwesomeMarkers.icon({
+                    icon: 'remove-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7e45d0f23e0f4e9e850c5594e05ff584.setIcon(icon_c7593ff16f584ca4b706242f37780037);
+            
+    
+            var popup_7d9beab5564143c584f1162c230841fd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f6a32574b77d49aa9ae8e9165165a3e0 = $(`<div id="html_f6a32574b77d49aa9ae8e9165165a3e0" style="width: 100.0%; height: 100.0%;">del addr:1</div>`)[0];
+                popup_7d9beab5564143c584f1162c230841fd.setContent(html_f6a32574b77d49aa9ae8e9165165a3e0);
+            
+
+            marker_7e45d0f23e0f4e9e850c5594e05ff584.bindPopup(popup_7d9beab5564143c584f1162c230841fd)
+            ;
+
+            
+        
+    
+            var layer_control_8a8bd9a768fa4a46a2b754fc8e8a0a72 = {
+                base_layers : { "openstreetmap" : tile_layer_7646f360a0474975853d8b01e5c921ee, },
+                overlays : { "Review Restaurants" : feature_group_ff13bd4a20a2489b85810d2282b97a5c,"Delivery Restaurants" : feature_group_036c925c455c4901b1556b6242e41f81,"Eating Locations" : feature_group_4890538501714b009e6e826740eff423,"Delivery Locations" : feature_group_a5e4ffd91b1a48c4ad6a6854bed156cc, }
+                };
+            L.control.layers(
+                layer_control_8a8bd9a768fa4a46a2b754fc8e8a0a72.base_layers,
+                layer_control_8a8bd9a768fa4a46a2b754fc8e8a0a72.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_d8ff66e42674431295daba0ee86fcd45);
+            
+        
+</script>
