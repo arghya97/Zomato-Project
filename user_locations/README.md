@@ -6,7 +6,7 @@ Here we are finding two locations of zomato users, one location is predicted fro
 To run the codes the following libraries and dataset need to be downloaded.
 * The required python libraries are : `pandas` , `numpy` , `sklearn`  and  `folium` .
 
-* The `jupyter notebook ` must also be installed along with python 3 to run the codes.
+* The `jupyter notebook` must also be installed along with `python 3` to run the codes.
 
   all these libraries can be install via  python `pip` installer.
 
