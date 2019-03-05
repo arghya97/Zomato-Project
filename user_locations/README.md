@@ -10,7 +10,7 @@ To run the codes the following libraries and dataset need to be downloaded.
 
   all these libraries can be install via  python `pip` installer.
 
-* The two datasets are required for these they are [zomato_user_reviews.csv](https://drive.google.com/open?id=1NmNNyHcZjMeeQoIQRNTM6_ek886rcxg8) and [resturants_location.csv](https://drive.google.com/open?id=1dUM6G-aKTLfUW17OGy2QBxtFpFB5fmQ6)
+* The two datasets are required for these they are zomato_user_reviews.csv and resturants_location.csv
 
 ## Idea
 1. Two lists are made for each user. One containing the list of all the restaurants from which the user has taken the delivery and other list containing the list of the restaurants which the user has reviewed in zomato.
